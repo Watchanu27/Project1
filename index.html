@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal Portfolio - Mechatronics, Automation, PLC, ESP32 and IoT">
+  <title>Portfolio | Your Name</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+Thai:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="navbar">
+    <a href="#home" class="logo">&lt;Portfolio /&gt;</a>
+    <button class="menu-toggle" aria-label="เปิดเมนู">☰</button>
+    <nav class="nav-links">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+      <button id="themeToggle" class="theme-btn" aria-label="เปลี่ยนธีม">☀️</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero section">
+      <div class="hero-content reveal">
+        <p class="eyebrow">MECHATRONICS • AUTOMATION • IoT</p>
+        <h1>สวัสดีครับ ผม <span>Your Name</span></h1>
+        <h2>Mechatronics & Automation Developer</h2>
+        <p class="hero-text">
+          สนใจด้านระบบอัตโนมัติ PLC, ESP32, IoT, Robotics และการพัฒนาโปรเจกต์
+          ที่ผสาน Hardware กับ Software เข้าด้วยกัน
+        </p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#projects">ดูผลงาน</a>
+          <a class="btn secondary" href="#contact">ติดต่อผม</a>
+        </div>
+        <div class="social-row">
+          <a href="#" aria-label="GitHub">GitHub</a>
+          <a href="#" aria-label="Facebook">Facebook</a>
+          <a href="mailto:your@email.com" aria-label="Email">Email</a>
+        </div>
+      </div>
+
+      <div class="hero-card reveal">
+        <div class="avatar">YN</div>
+        <div class="terminal">
+          <div><span class="green">const</span> developer = {</div>
+          <div>&nbsp;&nbsp;field: <span class="yellow">"Mechatronics"</span>,</div>
+          <div>&nbsp;&nbsp;focus: <span class="yellow">"Automation"</span>,</div>
+          <div>&nbsp;&nbsp;tools: [<span class="yellow">"PLC"</span>, <span class="yellow">"ESP32"</span>],</div>
+          <div>&nbsp;&nbsp;status: <span class="green">"Learning & Building"</span></div>
+          <div>};</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="section-heading reveal">
+        <p class="eyebrow">ABOUT ME</p>
+        <h2>เกี่ยวกับผม</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p>
+            ผมเป็นนักศึกษาสายวิศวกรรมเมคคาทรอนิกส์ที่สนใจการออกแบบและพัฒนาระบบ
+            Automation ตั้งแต่ระดับวงจร อุปกรณ์ควบคุม ไปจนถึง Software และ Cloud
+          </p>
+          <p>
+            ผมชอบเรียนรู้ผ่านการลงมือทำ โดยเฉพาะโปรเจกต์ที่เกี่ยวข้องกับ PLC,
+            ESP32, Sensor, Motor, IoT และระบบควบคุมอัตโนมัติ
+          </p>
+        </div>
+        <div class="facts reveal">
+          <div class="fact"><span>01</span><strong>Automation</strong><small>PLC & Control Systems</small></div>
+          <div class="fact"><span>02</span><strong>IoT</strong><small>ESP32 & Connected Devices</small></div>
+          <div class="fact"><span>03</span><strong>Design</strong><small>CAD & Engineering Design</small></div>
+          <div class="fact"><span>04</span><strong>Programming</strong><small>Embedded & Web</small></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section alt">
+      <div class="section-heading reveal">
+        <p class="eyebrow">MY SKILLS</p>
+        <h2>ทักษะ</h2>
+      </div>
+      <div class="skills-grid">
+        <article class="skill-card reveal"><span class="skill-icon">⚙️</span><h3>PLC</h3><p>Mitsubishi PLC, Ladder Logic, Industrial Control</p><div class="bar"><i style="width:82%"></i></div></article>
+        <article class="skill-card reveal"><span class="skill-icon">📡</span><h3>ESP32 / IoT</h3><p>ESP32, Sensors, Wi-Fi, MQTT, HTTP, Automation</p><div class="bar"><i style="width:85%"></i></div></article>
+        <article class="skill-card reveal"><span class="skill-icon">💻</span><h3>Programming</h3><p>C/C++, JavaScript, Python and Embedded Programming</p><div class="bar"><i style="width:72%"></i></div></article>
+        <article class="skill-card reveal"><span class="skill-icon">📐</span><h3>SolidWorks</h3><p>3D CAD, Mechanical Design and Engineering Drawing</p><div class="bar"><i style="width:75%"></i></div></article>
+        <article class="skill-card reveal"><span class="skill-icon">🧪</span><h3>LabVIEW</h3><p>Measurement, Data Acquisition and Control</p><div class="bar"><i style="width:65%"></i></div></article>
+        <article class="skill-card reveal"><span class="skill-icon">🌐</span><h3>Web</h3><p>HTML, CSS, JavaScript and Web-based Control Interfaces</p><div class="bar"><i style="width:70%"></i></div></article>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="section-heading reveal">
+        <p class="eyebrow">SELECTED WORK</p>
+        <h2>โปรเจกต์</h2>
+      </div>
+      <div class="projects-grid">
+        <article class="project-card reveal">
+          <div class="project-image placeholder">ESP32</div>
+          <div class="project-body"><span class="tag">IoT</span><h3>Smart Automation Box</h3><p>ระบบกล่องอัจฉริยะที่ใช้ ESP32-CAM, ระบบล็อก และ Web Control</p><div class="project-tech"><span>ESP32</span><span>Camera</span><span>Web</span></div></div>
+        </article>
+        <article class="project-card reveal">
+          <div class="project-image placeholder">PLC</div>
+          <div class="project-body"><span class="tag">Automation</span><h3>PLC Control System</h3><p>ระบบควบคุมอัตโนมัติด้วย PLC พร้อม Sensor, Relay และ Motor</p><div class="project-tech"><span>Mitsubishi</span><span>PLC</span><span>HMI</span></div></div>
+        </article>
+        <article class="project-card reveal">
+          <div class="project-image placeholder">WEB</div>
+          <div class="project-body"><span class="tag">Web</span><h3>Engineering Dashboard</h3><p>Dashboard สำหรับแสดงสถานะอุปกรณ์และข้อมูลจากระบบ IoT</p><div class="project-tech"><span>HTML</span><span>CSS</span><span>JavaScript</span></div></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="education" class="section alt">
+      <div class="section-heading reveal">
+        <p class="eyebrow">EDUCATION</p>
+        <h2>การศึกษา</h2>
+      </div>
+      <div class="timeline reveal">
+        <div class="timeline-item">
+          <span class="timeline-dot"></span>
+          <div><span class="timeline-date">20XX — Present</span><h3>วิศวกรรมเมคคาทรอนิกส์</h3><p>ศึกษาเกี่ยวกับระบบควบคุม Automation, Robotics, Electronics, Mechanics และ Programming</p></div>
+        </div>
+        <div class="timeline-item">
+          <span class="timeline-dot"></span>
+          <div><span class="timeline-date">PROJECTS</span><h3>เรียนรู้ผ่านการลงมือทำ</h3><p>พัฒนาโปรเจกต์ Embedded, IoT และระบบ Automation เพื่อเพิ่มประสบการณ์จริง</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="contact-box reveal">
+        <p class="eyebrow">CONTACT</p>
+        <h2>มาสร้างอะไรเจ๋ง ๆ กัน</h2>
+        <p>หากต้องการพูดคุยเรื่องโปรเจกต์ งาน หรือการร่วมงาน สามารถติดต่อผมได้ทางช่องทางด้านล่าง</p>
+        <div class="contact-actions">
+          <a class="btn primary" href="mailto:your@email.com">ส่งอีเมล</a>
+          <a class="btn secondary" href="#" target="_blank" rel="noopener">GitHub</a>
+        </div>
+        <div class="contact-info">
+          <span>📧 your@email.com</span>
+          <span>📍 Thailand</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Your Name. Built with HTML, CSS & JavaScript.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
